@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script lang="ts">
-  import { Vue, Component, Prop } from 'vue-property-decorator'
+  import {Vue, Component, Prop} from 'vue-property-decorator'
 
   @Component
   export default class App extends Vue {
@@ -14,13 +13,34 @@
   }
 </script>
 
-<style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+<style> <!-- 전역 스타일 작성 -->
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff') format('woff');
+}
+
+#app {
+  font-family: 'BareunBatang', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
