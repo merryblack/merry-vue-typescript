@@ -3,4 +3,4 @@
 # npm run unit && npm run e2e
 
 node build/build.js
-aws s3 sync dist s3://merrygoround.com
+aws s3 sync dist s3://merryblack.net

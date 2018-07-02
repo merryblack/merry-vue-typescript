@@ -43,4 +43,18 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+/*color-display*/
+/*
+#F5F5F5 whitesmoke
+#FFFAF0 floralwhite
+#FFFAFA snow
+#FFF5EE seashell
+#F8F8FF ghostwhite
+#F0F8FF aliceblue
+#F0FFF0 honeydew
+#F0FFFF azure
+#FFFFF0 ivory
+*/
+
 </style>
