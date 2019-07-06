@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Today from '../components/Today.vue'
+import Welcome from '../components/Welcome.vue'
 
 Vue.use(Router)
 
@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Today',
-      component: Today
+      name: 'Welcome',
+      component: Welcome
     }
   ]
 })
