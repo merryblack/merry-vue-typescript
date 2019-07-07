@@ -15,13 +15,12 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
-    "@egjs/vue-flicking": "^3.0.0",
-    "scenejs": "^1.1.4",
     "typescript": "^2.6.2",
     "vue": "^2.5.2",
     "vue-material": "^1.0.0-beta-11",
     "vue-router": "^3.0.1",
-    "@egjs/flicking-plugins": "latest"
+    "@egjs/vue-flicking": "^3.0.0",
+    "vue-scenejs": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
